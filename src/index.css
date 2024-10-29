@@ -1,13 +1,93 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+    padding: 64px;
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 42px !important;
+    line-height: 50px !important;
+    margin-bottom: 4px !important;
+}
+
+.headline {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 12px !important;
+}
+
+.blue {
+    color: #1e8ffd;
+}
+
+.header-descriptions {
+    margin-top: 12px;
+}
+
+h3 {
+    margin-bottom: 2px !important;
+}
+
+.divider {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.88);
+    height: 4px;
+    margin-bottom: 12px;
+}
+
+h4 {
+    margin-bottom: 2px !important;
+}
+
+.exp-role {
+    font-weight: 400 !important;
+    margin-top: 0;
+}
+
+.exp-company {
+    font-size: 16px;
+}
+
+.exp-paragraph {
+    margin: 4px 0 !important;
+}
+
+ul {
+    margin: 4px 0;
+    padding-left: 18px;
+}
+
+.circle-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+.circle {
+    background-color: #1e8ffd;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 2px;
+}
+
+
+
+
+
