@@ -30,6 +30,66 @@ function App() {
                 <Col span={14}>
                     <main>
                         <SectionTitle title={'EXPERIENCE'}/>
+                        <ExpItem date={'06/2025 - 12/2025'} company={'Hyqoo (Client: LGAds)'}
+                                 role={'Principal Salesforce Developer'}
+                                 location={'Remote'}>
+                            <Paragraph className={'exp-paragraph'}>
+                                Led Salesforce development initiatives for LGAds as Principal Developer, focusing on
+                                enterprise architecture and development best practices.
+                            </Paragraph>
+                            <ul>
+                                <li>
+                                    Designed and implemented comprehensive CICD pipeline and GitHub branching strategy
+                                    to streamline deployment processes and ensure code quality.
+                                </li>
+                                <li>
+                                    Architected complex functionality and data models to meet business requirements
+                                    while maintaining scalability and performance.
+                                </li>
+                                <li>
+                                    Developed custom solutions using advanced Apex (triggers, Queueables, Batch Apex,
+                                    REST endpoints) and Lightning Web Components (LWC) for Sales Cloud and Service Cloud
+                                    implementations.
+                                </li>
+                                <li>
+                                    Implemented async Apex patterns and optimized SOQL/SOSL queries for high-performance
+                                    data operations.
+                                </li>
+                                <li>
+                                    Conducted thorough code reviews and pull request evaluations to maintain high
+                                    development standards and mentor team members.
+                                </li>
+                            </ul>
+                            <TechStack
+                                values={'Apex (Triggers, Queueables, Batch, REST endpoints), SOQL/SOSL, Async Apex Patterns, LWC, Sales Cloud, Service Cloud, Jenkins, GitHub, IntelliJ IDEA, CICD, Data Modeling'}/>
+                        </ExpItem>
+                        <DashedDivider/>
+                        <ExpItem date={'12/2024 - Present'} company={'Bridgenext'} role={'Salesforce Engineer'}
+                                 location={'Argentina · Remote'}>
+                            <Paragraph className={'exp-paragraph'}>
+                                Working in the Managed Services area developing and maintaining AppExchange packages for
+                                ISV clients.
+                            </Paragraph>
+                            <ul>
+                                <li>
+                                    Collaborate directly with enterprise clients such as Walmart, FedEx, Typeform,
+                                    CoreLogic, and FullStory to deliver customized Salesforce solutions.
+                                </li>
+                                <li>
+                                    Responsible for development tasks, technical research, comprehensive documentation,
+                                    and implementing CICD pipelines using CircleCI. Utilize advanced development tools
+                                    including IntelliJ IDEA and Illuminated Cloud 2 to ensure efficient delivery of
+                                    high-quality solutions.
+                                </li>
+                                <li>
+                                    Serve as a technical liaison between clients and internal teams, ensuring project
+                                    requirements are fully understood and implemented to client specifications.
+                                </li>
+                            </ul>
+                            <TechStack
+                                values={'Apex, LWC, Flows, Sales Cloud, AppExchange, CircleCI, IntelliJ IDEA, Illuminated Cloud 2, ISV, Managed Packages'}/>
+                        </ExpItem>
+                        <DashedDivider/>
                         <ExpItem date={'10/2021 - 08/2024'} company={'MISUMI'} role={'Salesforce Engineer'}
                                  location={'Remote'}>
                             <Paragraph className={'exp-paragraph'}>
@@ -130,7 +190,8 @@ function App() {
                                     business stakeholders.
                                 </li>
                             </ul>
-                            <TechStack values={'Apex, Visualforce, Omniscript, Dataraptor, Integration Procedures, Sales Cloud, Service Cloud, Vlocity, Copado, SLAs, Entitlement Processes'}/>
+                            <TechStack
+                                values={'Apex, Visualforce, Omniscript, Dataraptor, Integration Procedures, Sales Cloud, Service Cloud, Vlocity, Copado, SLAs, Entitlement Processes'}/>
                         </ExpItem>
                         <DashedDivider/>
                         <ExpItem date={'05/2018 - 05/2019'} company={'Xappia'}
@@ -150,7 +211,8 @@ function App() {
                                     communication between the technical team and business stakeholders
                                 </li>
                             </ul>
-                            <TechStack values={'Apex, Visualforce, Aura Components, Sales Cloud, Service Cloud, SLAs, Queues, Agents, Visualforce, Aura'}/>
+                            <TechStack
+                                values={'Apex, Visualforce, Aura Components, Sales Cloud, Service Cloud, SLAs, Queues, Agents, Visualforce, Aura'}/>
                         </ExpItem>
                         <DashedDivider/>
                         <ExpItem date={'01/2016 - 05/2018'} company={'Freelance'}
